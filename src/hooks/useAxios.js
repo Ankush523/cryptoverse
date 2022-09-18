@@ -22,7 +22,7 @@ const useAxios = (param) => {
 
   useEffect(() => {
     fetchData(param);
-  }, []);
+  }, []); 
 
   return {
     response, loading, error

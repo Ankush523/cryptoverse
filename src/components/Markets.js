@@ -16,17 +16,19 @@ const Markets = () => {
                 <Skeleton className="h-8 w-full mt-2 "/>
                 <Skeleton className="h-8 w-full mt-2 "/>
                 <Skeleton className="h-8 w-full mt-2 "/>
-                <Skeleton className="h-8 w-full mt-2 "/>
-                <Skeleton className="h-8 w-full mt-2 "/>
-                <Skeleton className="h-8 w-full mt-2 "/>
-
             </div>
         )
     }
 
   return (
     <section className='mt-8'>
-        <h1 className='text-2xl mb-2'>Market</h1>
+        <h1 className='text-3xl mb-2 pb-[30px]'>Today's Cryptocurrency Prices by Market Cap</h1>
+        <div className='grid grid-cols-3 sm:grid-cols-4 font-semi-bold text-xl mb-1 p-2'>
+            <h1>Name</h1>
+            <h1>Price</h1>
+            <h1>24h Change</h1>
+            <h1>Market Cap</h1>
+        </div>
         {response && response.map(coin => <Coin key={coin.id} coin={coin}/>)}
     </section>
   )

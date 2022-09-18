@@ -6,6 +6,8 @@ const Home = () => {
   return (
     <div className='wrapper-container'>
         <Trending/>
+        <br/>
+        <br/>
         <Markets/>
     </div>
   )

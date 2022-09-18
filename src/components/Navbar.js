@@ -3,17 +3,17 @@ import { LogoIcon } from '../icons/icons'
 
 const Navbar = () => {
   return (
-    <div className='bg-gray-800 text-white h-14 flex items-center '>
-        <div className='wrapper-container w-full'>
+    <div className='h-[100px] flex items-center justify-center '>
+        
             <div className='flex items-center gap-1 cursor-pointer'>
                 <LogoIcon/>
                 <p>
-                    <span>
-                        CryptoVerse
+                    <span className='text-4xl'>
+                        Cryptoworld
                     </span>
                 </p>
             </div>
-        </div>
+      
     </div>
   )
 }
