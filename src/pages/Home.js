@@ -4,7 +4,7 @@ import Trending from '../components/Trending'
 
 const Home = () => {
   return (
-    <div className='wrapper-container '>
+    <div className='wrapper-container'>
         <Trending/>
         <Markets/>
     </div>
