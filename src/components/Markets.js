@@ -21,7 +21,7 @@ const Markets = () => {
     }
 
   return (
-    <section className='mt-8 shadow-xl rounded-md p-5'>
+    <section className='mt-8 shadow-xl border-gray-200 border-2 rounded-md p-5'>
         <h1 className='text-3xl mb-2 pb-[30px]'>Today's Cryptocurrency Prices by Market Cap</h1>
         <div className='grid grid-cols-6 sm:grid-cols-6 mb-3 font-bold text-[15px] mb-1 px-[20px]'>
             <h1>Name</h1>

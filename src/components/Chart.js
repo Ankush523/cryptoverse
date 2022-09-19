@@ -50,8 +50,8 @@ const Chart = () => {
         fill: true,
         label: id,
         data: coinChartData.map(val => val.y),
-        borderColor: 'rgb(53, 162, 235)',
-        backgroundColor: 'rgba(53, 162, 235, 0.5)',
+        borderColor: 'rgb(0, 59, 6)',
+        backgroundColor: 'rgba(22, 192, 0, 0.5)',
       }
     ]
   }

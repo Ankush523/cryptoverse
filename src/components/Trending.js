@@ -17,7 +17,7 @@ const Trending = () => {
   }
 
   return (
-    <div className="mt-8 shadow-xl rounded-md p-5">
+    <div className="mt-8 shadow-xl border-gray-200 border-2 rounded-md p-5">
       <div className="flex flex-row items-center gap-1">
       <img className="h-[35px]" src="https://cdn-icons-png.flaticon.com/128/4325/4325956.png"/>
       <h1 className="text-3xl ">Trending Tokens</h1>
