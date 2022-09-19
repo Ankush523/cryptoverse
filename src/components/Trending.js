@@ -1,7 +1,6 @@
 import useAxios from "../hooks/useAxios"
 import Skeleton from "./Skeleton";
 import TrendingCoin from "./TrendingCoin";
-import "../images/flames.png"
 const Trending = () => {
   const { response, loading } = useAxios('search/trending');
 
@@ -19,8 +18,8 @@ const Trending = () => {
 
   return (
     <div className="mt-8 shadow-xl rounded-md p-5">
-      <div className="flex flex-row items-center gap-2">
-      <img src="https://s2.coinmarketcap.com/static/cloud/img/TrendingIcon.png?_=be74bf6"/>
+      <div className="flex flex-row items-center gap-1">
+      <img className="h-[35px]" src="https://cdn-icons-png.flaticon.com/128/4325/4325956.png"/>
       <h1 className="text-3xl ">Trending Tokens</h1>
       </div>
       <br/>

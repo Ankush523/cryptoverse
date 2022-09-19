@@ -58,7 +58,7 @@ const Chart = () => {
 
   return (
     <div>
-      <Line options={options} data={data} />
+      <Line className="wrapper-container h-[500px]" options={options} data={data} />
     </div>
   )
 }
