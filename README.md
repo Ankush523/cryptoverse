@@ -2,6 +2,15 @@
 
 Deployment : [CryptoVerse](https://cryptoverse-tawny.vercel.app).
 
+# Crypto Dashboard
+
+The Project displays a Cryptocurrency Dashboard which helps to track/monitor the historical values and current prices of various tokens/coins by the user.
+
+
+# Tech Stack
+
+HTML, Tailwind CSS, ReactJS, and an external API (CoinGecko) to fetch data
+
 
 # Getting Started with Create React App
 
