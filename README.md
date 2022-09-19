@@ -1,6 +1,6 @@
 # Project deployed on Vercel
 
-[CryptoVerse](https://www.cryptoverse-tawny.vercel.app).
+[CryptoVerse](cryptoverse-tawny.vercel.app).
 
 
 # Getting Started with Create React App
